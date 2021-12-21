@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '$zh@-1&!=)^39j=-v+^_qx9mfu*@dp7547e(o!w3sldj5s(t5s'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'coursemanagement_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'course_management_system',  ### Name of the data schema
+        'NAME': 'course_management_system',  ### Name of the target data schema, please creat it beforehand
         'USER': 'root',
-        'PASSWORD': 'W5873361q!',
+        'PASSWORD': '',  ### Use your own database password here
         'HOST': 'localhost',
         'PORT': '3306',
     }
