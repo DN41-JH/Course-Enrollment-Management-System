@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'coursemanagement_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',  ### Name of the data schema
+        'NAME': 'course_management_system',  ### Name of the data schema
         'USER': 'root',
         'PASSWORD': 'W5873361q!',
         'HOST': 'localhost',
