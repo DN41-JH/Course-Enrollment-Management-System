@@ -1,6 +1,8 @@
 import React from "react";
+import './Bootstrap.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import MenuBar from "./components/MenuBar";
+import Footer from "./components/Footer";
 import UserCourses from "./views/UserCourses";
 import AllDepartments from "./views/AllDepartments";
 import AllStudents from "./views/AllStudents";
@@ -18,6 +20,7 @@ export default function App() {
     // <EnrolledCourses /> : The newly create [view] that is designed to render the course table component that contains the enroled courses data.
     // <Login /> : The newly created [view] that is designed to render the ............
 
+    
     <Router>
       <div>
         {/* <ul>
@@ -63,6 +66,8 @@ export default function App() {
           </Route>
         </Switch>
       </div>
+
+      <Footer />
     </Router>
   );
 }
