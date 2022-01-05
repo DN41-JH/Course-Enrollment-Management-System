@@ -5,4 +5,6 @@ As the size and scope of an university or online teaching platform grows, more a
 
 The application supports everyone who visits the website (don't needed to be registered) to check the information and status of all the courses to be offered, but cannot take actions on any courses. Visitors are able to register via the provided user interface to be either enrolled student or instructor. Our application will provide all the required functionalities for authenticated users to manipulate and manage target courses, such as registering/dropping courses (for student users) as well as creating/deleting courses that he/she teaches (for instructor users). The student users are also able to give ratings on the courses that he/she takes, which will be recorded in the database.
 
-After creating all the associated tables in the database, it is recommended to populate the "Department" table with the basic department data from "Departments.csv", which can serve as a starting point of all the services of the application.
+The detailed UML diagram of the database design is showed in "Database Design UML", and is implemented in Django Model and can be migrated into the SQL database. After creating all the associated tables in the database, it is recommended to populate the "Department" table with the basic department data from "Departments.csv", which can serve as a starting point of all the services of the application.
+
+The demo of the application is available at: https://youtu.be/QZ_VVBks_Ug.
