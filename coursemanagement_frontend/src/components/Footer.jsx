@@ -6,7 +6,7 @@ export default class Footer extends React.Component {
             <footer className="page-footer font-large blue" style={{color:'red', fontSize:17}}>
 
                 <div className="footer-copyright text-center py-3">
-                    All Rights Reserved 2021 @Jianghuai Liu
+                    All Rights Reserved © 2021 Jianghuai Liu
                 </div>
 
             </footer>
